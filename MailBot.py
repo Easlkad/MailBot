@@ -8,8 +8,8 @@ import os
 socket.setdefaulttimeout(10)
 
 def send_email(to_address, subject, body):
-    from_address = "barkant64@gmail.com"  # Use environment variables for security
-    password = "avye pwqv hhdk ujjn"
+    from_address = ""  # Use environment variables for security
+    password = ""
 
 
     if not from_address or not password:
@@ -49,9 +49,9 @@ def get_email_content(person_type):
 
 def main():
     people = [
-        {"gmail": "barkant64@gmail.com", "type": "student"},
-        {"email": "barkan122_64@hotmail.com", "type": "student"},
-        {"email": "barkan_-_64@hotmail.com", "type": "student"},
+        {"gmail": "", "type": "student"},
+        {"email": "", "type": "student"},
+        {"email": "", "type": "student"},
     ]
     
     for person in people:
